@@ -66,9 +66,9 @@ header{
     font-size: 14px;
 }
 .banner {
-    width: 100vw;
+    width: 100vw;    
     text-align: center;
-    margin: auto;
+    
 }
 .burger-menu{
     display: block;
@@ -86,7 +86,7 @@ header{
 main{
     background-color: #ebebeb;
 }
-.contenedor-main{
+.contenedor-products{
     max-width: 1200px;
     width: 100vw;
     padding: 15px;
@@ -260,7 +260,7 @@ footer {
     transition: all 450ms;
 }
 
-@media(min-width: 361px){
+@media only screen and (min-width: 361px){
     .burger-menu {
         display: none;
     }
@@ -314,7 +314,7 @@ footer {
     }
 }
 
-@media(min-width: 769px){
+@media only screen and (min-width: 769px){
     .logo {
         width: 250px;
     }

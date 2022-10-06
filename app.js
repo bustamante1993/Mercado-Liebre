@@ -29,8 +29,8 @@ app.get('/register', (req, res) => {
 
 });
 
-app.get('/loguin', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './src/views/loguin.html'));
+app.get('/login', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './src/views/login.html'));
 
 });
 
